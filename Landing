@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Coffee Shop</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img src="https://imgtr.ee/images/2023/09/15/564d2e34dbda0cfb07756466765b5716.jpeg"
+            alt="Company Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">VARIETIES</a>
+          <a href="#our-service" class="nav-link">SERVICES</a>
+          <a href="#benefits" class="nav-link">VISIT US</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://images.unsplash.com/photo-1467189386127-c4e5e31ee213?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Image of Apples" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Freshly brewed coffee and treats.</h1>
+          <h2>
+            Where every cup tells a story: Experience the rich flavors of our artisanal coffee and homemade treats.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Buy Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            Bean cafe is a coffee shop that provides you with quality coffee that helps boost your productivity and helps build your mood. From the farmers who tend to the red-ripe coffee cherries, to the master roasters who coax the best from every bean, and to the barista who serves it with care. We are committed to the highest standards of quality and service, embracing our heritage while innovating to create new experiences to savor. 
+Having  cup of coffee is good, but having a cup of real coffee is greater. There is no doubt that you will enjoy this coffee more than other you have ever tasted.
+          </p>
+          <img src="https://images.unsplash.com/photo-1520284888530-ac9a909a1b62?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Man preparing a freshly brewed coffee" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="https://media.istockphoto.com/id/1303583671/photo/cup-glass-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.webp?b=1&s=170667a&w=0&k=20&c=aVldamhbluP7K6ACdAEir6X8mGH7zwPur0p0mZWSXYI=" alt="Espresso" />
+            <h4>Espresso</h4>
+            <p>
+              Espresso is the embodiment of concentration and intensity. Brewed to perfection, it exudes a rich, dark elixir, crowned with a velvety crema. Sip this Italian masterpiece for an instant journey to the heart of coffee's allure.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://images.unsplash.com/photo-1462917882517-e150004895fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEyfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=600&q=60"
+              alt="Capuccino"
+            />
+            <h4>Capuccino</h4>
+            <p>
+              A masterpiece of balance, the cappuccino is a harmonious trio of espresso, steamed milk, and airy foam. With a tantalizing swirl of artful foam on its surface, it promises a perfect blend of strength and silkiness, satisfying the most refined palate.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://enjoyjava.com/wp-content/uploads/2021/08/how-to-make-an-americano.jpg"
+ alt="Americano" />
+            <h4>Americano</h4>
+            <p>
+             The Americano is the embodiment of liberation in simplicity. A bold espresso liberated by hot water, it offers an uncomplicated and dignified caffeine experience that is as pure as it is profound.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80" alt="Latte" />
+            <h4>Latte</h4>
+            <p>
+              Elegance in a glass, the latte is a canvas for coffee artistry. Smooth and inviting, it marries espresso's vigor with a lavish canvas of steamed milk, creating a canvas for coffee artistry. Each sip is a journey through a cloud of coffee heaven.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://wetheorigin.com/wp-content/uploads/2020/08/Mocha-Coffee-image-2-scaled.jpg" alt="Mocha" />
+            <h4>Mocha</h4>
+            <p>
+              A divine fusion of two worlds, the mocha is an opulent indulgence. The marriage of espresso's intensity with the seduction of chocolate creates a lush and velvety elixir that beckons to the connoisseur and the romantic alike.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://media.istockphoto.com/id/681493700/photo/frappuccino-in-takeaway-cup.jpg?s=612x612&w=0&k=20&c=lA2Fj-ILerew4wgDvqsNmte5oCHXKssP9J-vdWs-J8s=" alt="Frappuccino" />
+            <h4>Frappuccino</h4>
+            <p>
+              This icy concoction starts with a base of freshly brewed coffee or coffee-flavored syrup, combined with milk, ice, and a touch of sweetness. It is then expertly blended to perfection, resulting in a creamy, frosty masterpiece. 
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICES</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver freshly brewed coffee, so you can savor every sip of its aromatic perfection without leaving the comfort of your home. </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                Experience the swiftness of satisfaction at our coffee shop, where every order is served with a dash of speed and a sprinkle of excellence.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. We do our best to make
+                your coffee experience a smooth one with top notch taste, facilities and services.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h1 class="section-heading">Visit us today!</h1>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Bean Cafe"
+            height="315"
+            src="https://www.youtube.com/embed/lAd3LYIZMjs?si=E2KYHDhXo9mFENcO"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+ </iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To make an order or just to know more contact us :</h6>
+          <form
+            id="form"
+            
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Know More" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Disha R</a>
+    </footer>
+  </body>
+</html>
